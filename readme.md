@@ -19,4 +19,18 @@
 	4.删除操作
 		- git rm <file> 可以删除文件
 		- 误删后 可以用 git checkout -- file 进行恢复
-
+### 关联GitHub
+	1.绑定github版本库
+		- git remote add origin https://github.com/IchMj/tDemo.git
+	2.移除GitHub远程库
+		- git remote remove origin
+	3.推送本地库到远程
+		- git push origin master
+	4.从远程克隆库
+		- git clone origin https://github.com/IchMj/tDemo.git
+### 分支管理
+	1.创建分支
+		- git branch dev 创建一个dev分支
+		- git checkout dev 切换到dev分支
+		- git checkout -b dev 相当于上面两条指令
+	2.
