@@ -33,4 +33,10 @@
 		- git branch dev 创建一个dev分支
 		- git checkout dev 切换到dev分支
 		- git checkout -b dev 相当于上面两条指令
-	2.
+	2.合并分支
+		- git merge dev
+		- git branch -d dev 删除dev分支
+	3.切换分区
+		- git checkout <name> 
+	4.分支冲突解决
+		- 删除分支冲突的内容
